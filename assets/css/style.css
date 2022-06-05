@@ -26,6 +26,12 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
+@media (max-width: 662px) {
+  body::before{
+    background: #040404 url("../img/Untitled2.jpeg") top left no-repeat;
+    background-size: cover;
+  }
+}
 /* @media (max-width: 662px) {
   body::before{
     background: #040404 url("../img/Untitled.jpeg") top right no-repeat;
